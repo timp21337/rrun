@@ -51,6 +51,9 @@ fi
 
 cat $file >> $tempFile
 
+echo "#" >> $tempFile
+echo "warnings()" >>$tempFile
+
 # writes stdout, stderr into file
 #r CMD BATCH --quiet --vanilla  run.R 
 # writes stdout, stderr to console
