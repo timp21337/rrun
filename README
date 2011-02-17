@@ -1,1 +1,7 @@
-A wrapper around R 
+A wrapper around R enabling R statements to be passed as arguments in 
+addition to an R language file.
+
+Place rrun in /usr/local/bin and execute with something like
+
+rrun s=\"nice\" f=1 ls.r
+
