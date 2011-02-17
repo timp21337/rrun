@@ -3,5 +3,5 @@ addition to an R language file.
 
 Place rrun in /usr/local/bin and execute with something like
 
-rrun s=\"nice\" f=1 ls.r
+rrun s=\"nice\" f=1 s.R
 
